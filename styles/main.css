@@ -90,7 +90,7 @@ h1 {
     border-radius: 25% 0 0;
     color: white;
     z-index: 1;
-    background-image: url("/images/slider/slide-img-1.jpg");
+    background-image: url("../images/slider/slide-img-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -170,8 +170,8 @@ h1 {
 .arrow-left {
   margin-left: 12px;
   background-color: #000;
-  -webkit-mask-image: url("/images/slider/arrow-left.svg");
-          mask-image: url("/images/slider/arrow-left.svg");
+  -webkit-mask-image: url("../images/slider/arrow-left.svg");
+          mask-image: url("../images/slider/arrow-left.svg");
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -184,8 +184,8 @@ h1 {
 .arrow-right {
   margin-left: 12px;
   background-color: #000;
-  -webkit-mask-image: url("/images/slider/arrow-right.svg");
-          mask-image: url("/images/slider/arrow-right.svg");
+  -webkit-mask-image: url("../images/slider/arrow-right.svg");
+          mask-image: url("../images/slider/arrow-right.svg");
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -359,8 +359,8 @@ h1 {
   .card .arrow {
     margin-left: 25%;
     background-color: white;
-    -webkit-mask-image: url("/images/next.svg");
-            mask-image: url("/images/next.svg");
+    -webkit-mask-image: url("../images/next.svg");
+            mask-image: url("../images/next.svg");
     -webkit-mask-size: cover;
             mask-size: cover;
     -webkit-mask-repeat: no-repeat;
@@ -436,19 +436,19 @@ h1 {
       width: 240px;
       padding-left: 30px; }
     .approach__rich-text .rich-text__icon-1 {
-      background-image: url(/images/features/features-item-icon-1.svg);
+      background-image: url("../images/features/features-item-icon-1.svg");
       width: 64px;
       height: 64px; }
     .approach__rich-text .rich-text__icon-2 {
-      background-image: url(/images/features/features-item-icon-2.svg);
+      background-image: url("../images/features/features-item-icon-2.svg");
       width: 64px;
       height: 64px; }
     .approach__rich-text .rich-text__icon-3 {
-      background-image: url(/images/features/features-item-icon-3.svg);
+      background-image: url("../images/features/features-item-icon-3.svg");
       width: 64px;
       height: 64px; }
   .approach__image {
-    background-image: url(/images/features/features-bg.jpg);
+    background-image: url("../images/features/features-bg.jpg");
     background-size: cover;
     border-radius: 100px 0 0;
     position: absolute;
@@ -502,7 +502,7 @@ h1 {
     top: 55px;
     left: 20px; }
   .badge .image {
-    background-image: url(/images/testimonials/testimonial-ava-1.jpg);
+    background-image: url("../images/testimonials/testimonial-ava-1.jpg");
     background-size: cover;
     border-radius: 50%;
     z-index: 1;
@@ -524,8 +524,8 @@ h1 {
   .badge .quotes {
     margin: 0 auto;
     background-color: #56ccf2;
-    -webkit-mask-image: url("/images/testimonials/quotes.svg");
-            mask-image: url("/images/testimonials/quotes.svg");
+    -webkit-mask-image: url("../images/testimonials/quotes.svg");
+            mask-image: url("../images/testimonials/quotes.svg");
     -webkit-mask-size: cover;
             mask-size: cover;
     -webkit-mask-repeat: no-repeat;
@@ -569,7 +569,7 @@ h1 {
     background: -webkit-gradient(linear, left top, left bottom, from(#eff256), color-stop(150%, #cecb2c));
     background: linear-gradient(180deg, #eff256, #cecb2c 150%); }
   .badge.badge-2 .image {
-    background-image: url(/images/testimonials/testimonial-ava-2.jpg);
+    background-image: url("../images/testimonials/testimonial-ava-2.jpg");
     background-position: center; }
   .badge.badge-2 .charm-right {
     background: -webkit-gradient(linear, left top, left bottom, from(#eff256), color-stop(150%, #cecb2c));
@@ -580,7 +580,7 @@ h1 {
     background: -webkit-gradient(linear, left top, left bottom, from(#ff3131), color-stop(150%, #8b2323));
     background: linear-gradient(180deg, #ff3131, #8b2323 150%); }
   .badge.badge-3 .image {
-    background-image: url(/images/testimonials/testimonial-ava-3.jpg);
+    background-image: url("../images/testimonials/testimonial-ava-3.jpg");
     background-position: center; }
   .badge.badge-3 .charm-right {
     background: -webkit-gradient(linear, left top, left bottom, from(#ff3131), color-stop(150%, #8b2323));
