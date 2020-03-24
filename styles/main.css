@@ -582,9 +582,10 @@ h1 {
     background-color: #ff3131; }
 
 .footer {
-  margin-top: 158px;
+  margin: 158px auto auto;
   position: relative;
-  background-color: #008aff; }
+  background-color: white;
+  max-width: 1280px; }
   .footer__description {
     background-color: white;
     background-image: url("../images/shapes.svg");
@@ -613,6 +614,7 @@ h1 {
       height: 56px;
       width: 226px; }
   .footer__contacts {
+    border-radius: 0 100px 0 0;
     padding-right: 50px;
     padding-top: 180px;
     display: -webkit-box;
@@ -716,6 +718,7 @@ h1 {
         .footer__contacts .block-right__socials-links a:hover {
           opacity: 0.5; }
   .footer .block-bottom {
+    background-color: #008aff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -723,12 +726,14 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 120px;
-    margin-left: 120px;
+    padding-top: 120px;
+    padding-left: 120px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    max-width: 1280px;
+    margin: 0 auto; }
 
 html,
 body,
